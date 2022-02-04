@@ -1,1 +1,8 @@
+.container {
+  display: flex;
+}
 
+.paragraph {
+  width: 400px;
+  margin: auto;
+}
