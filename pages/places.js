@@ -8,7 +8,7 @@ import Image from "next/image";
 const Places = () => {
   return (
     <div>
-      <Image
+      {/* <Image
         src="/../public/images/photo-1524942434100-2b3f200f5b40.jpeg"
         alt="picture of Palermo Cathedral"
         width={200}
@@ -19,7 +19,7 @@ const Places = () => {
         alt="picture of Celafu"
         width={350}
         height={250}
-      />
+      /> */}
       <Heading heading={"Places"} />
       <Content paragraph={loremIpsum} />
     </div>
