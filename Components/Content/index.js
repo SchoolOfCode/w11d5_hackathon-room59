@@ -1,8 +1,8 @@
 import React from "react";
 
-const Content = ({ paragraph }) => {
+const Content = ({ paragraph, className }) => {
   return (
-    <div>
+    <div className={className}>
       <p>{paragraph}</p>
     </div>
   );
