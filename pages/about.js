@@ -1,15 +1,15 @@
 import React from "react";
 import Heading from "../Components/Heading";
 import Content from "../Components/Content";
-import { loremIpsum } from "../lib/data";
+import { loremIpsum } from "../lib/data.js";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
-      <Heading heading={"Home"} />
+      <Heading heading={"About"} />
       <Content paragraph={loremIpsum} />
     </div>
   );
 };
 
-export default Home;
+export default About;
