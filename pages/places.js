@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Heading from "../Components/Heading";
 import Content from "../Components/Content";
@@ -19,6 +21,7 @@ const Places = () => {
         width={350}
         height={250}
       />
+      <img src="https://images.unsplash.com/photo-1550593729-4925b1e5bbdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" />
       <Heading heading={"Places"} />
       <Content paragraph={loremIpsum} />
     </div>
