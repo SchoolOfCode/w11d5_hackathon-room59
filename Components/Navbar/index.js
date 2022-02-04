@@ -1,20 +1,42 @@
 import React from "react";
 import Link from "next/link";
+import * as css from "../../styles/Navbar.module.css"
 
 const Navbar = () => {
   return (
-    <ul>
-      <li>
+    // <ul>
+      <div className={css.navBar}>
         <Link href="/">
           <a>Home</a>
         </Link>
-      </li>
-      <li>
+      
+      
         <Link href="/about">
           <a>About</a>
         </Link>
-      </li>
-    </ul>
+      
+      
+        <Link href="/">
+          <a>Places</a>
+        </Link>
+      
+      
+        <Link href="/">
+          <a>Culture</a>
+        </Link>
+      
+      
+        <Link href="/">
+          <a>Visit</a>
+        </Link>
+      
+      
+        <Link href="/">
+          <a>Live</a>
+        </Link>
+    
+    </div>
+    // </ul>
   );
 };
 
